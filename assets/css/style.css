@@ -3522,6 +3522,13 @@ hr {
   background-size: cover;
 }
 
+@media (max-width: 767px) {
+  .slider-area {
+    background-image: none !important;
+    background-color: white !important;
+  }
+}
+
 /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
   font-size: 70px;
